@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>简易计算器-vue</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="caculator">
+        <title-box></title-box>
+        <div id="content">
+            <input-box :input-show="inputShow"></input-box>
+            <div id="btn">
+                <button class="buttons" @click="allClear()">AC</button>
+                <button class="buttons" @click="clearEnd()">CE</button>
+                <input-btn value="%" v-on:change-value="inputValue('%')"></input-btn>
+                <input-btn value="/" v-on:change-value="inputValue('/')"></input-btn>
+                <input-btn value="1" v-on:change-value="inputValue('1')"></input-btn>
+                <input-btn value="2" v-on:change-value="inputValue('2')"></input-btn>
+                <input-btn value="3" v-on:change-value="inputValue('3')"></input-btn>
+                <input-btn value="*" v-on:change-value="inputValue('*')"></input-btn>
+                <input-btn value="4" v-on:change-value="inputValue('4')"></input-btn>
+                <input-btn value="5" v-on:change-value="inputValue('5')"></input-btn>
+                <input-btn value="6" v-on:change-value="inputValue('6')"></input-btn>
+                <input-btn value="-" v-on:change-value="inputValue('-')"></input-btn>
+                <input-btn value="7" v-on:change-value="inputValue('7')"></input-btn>
+                <input-btn value="8" v-on:change-value="inputValue('8')"></input-btn>
+                <input-btn value="9" v-on:change-value="inputValue('9')"></input-btn>
+                <input-btn value="+" v-on:change-value="inputValue('+')"></input-btn>
+                <input-btn value="." v-on:change-value="inputValue('.')"></input-btn>
+                <input-btn value="0" v-on:change-value="inputValue('0')"></input-btn>
+                <button class="buttons" @click="ans()">Ans</button>
+                <button class="buttons" @click="caculate()">=</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js" ></script>
+    <script src="index.js" ></script>
+    
+</body>
+
+</html>

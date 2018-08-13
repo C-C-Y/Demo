@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527247082681&di=782d91aa84cad4cc915074f12c452e94&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F4%2F58491eed85fbe.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    color: #000;
+}
+
+#content {
+    position: relative;
+    top: 20%;
+    right: 0;
+    left: 20%;
+    bottom: 0;
+    width: 60%;
+    padding: 3% 1% 3% 1%;
+    background-color: #fff;
+    opacity: 0.3;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.9em;
+}
+
+#title {
+    letter-spacing: 20px;
+    font-size: 1.7rem;
+}
+
+#weather {
+    font-size: 1.4rem;
+    margin-top: 3%;
+    letter-spacing: 10px;
+}
+
+#weather p {
+    margin-top: 2%;
+}
+
+.tip {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+#tip {
+    font-size: 1.5rem;
+    letter-spacing: 0.5em;
+}

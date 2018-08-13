@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>show the local weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="content">
+
+        <div id="title">
+            <p>
+                <span id="location"></span>实况天气</p>
+        </div>
+        <div id="weather">
+            <p>天气状态:
+                <span id="now_weather"></span>
+            </p>
+            <p>&nbsp&nbsp体感温度:
+                <span id="tem"></span>
+                <span>℃</span>
+            </p>
+            <p>&nbsp&nbsp相对湿度:
+                <span id="water"></span>
+                <span>%</span>
+            </p>
+            <p>风&nbsp&nbsp&nbsp&nbsp向:
+                <span id="wind_direction"></span>
+            </p>
+            <p>&nbsp&nbsp&nbsp&nbsp风&nbsp&nbsp&nbsp&nbsp速:
+                <span id="wind_spead"></span>
+                <span>m/s</span>
+            </p>
+        </div>
+        <div class="tip">
+            <p>
+                <span id="tip">温馨提示:</span>
+                <br/>
+                <span id="text"></span>
+            </p>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

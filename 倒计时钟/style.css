@@ -1,0 +1,38 @@
+#clock {
+    width: 20rem;
+    height: 15rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#display {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5em;
+    letter-spacing: 0.5rem;
+}
+
+.set {
+    letter-spacing: 0.2rem;
+    margin-top: 0.3rem;
+}
+
+div.set input {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    vertical-align: middle;
+}
+
+div.control {
+    margin-top: 0.7rem;
+}
+
+div.control input {
+    font-size: 1.1rem
+}

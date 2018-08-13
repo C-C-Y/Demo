@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #16a085;
+}
+
+#content {
+    width: 450px;
+    background-color: #fff;
+    position: relative;
+    margin: 8% auto auto auto;
+    padding: 40px 50px;
+    border-radius: 10px;
+}
+
+#right_quote {
+    font-size: 30px;
+}
+
+.quote_text {
+    font-size: 30px;
+    text-align: center;
+    margin-left: -25px;
+    color: #16a085;
+}
+
+.quote_author {
+    text-align: right;
+    font-size: 23px;
+    color: #16a085;
+}
+
+.buttons {
+    width: 450px;
+    margin-top: 30px;
+}
+
+#button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #fff;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #16a085;
+    outline: none;
+    cursor: pointer;
+}
+
+i.shareQQ {
+    position: relative;
+    left: 400px;
+    font-size: 35px;
+    color: #16a085;
+    cursor: pointer;
+}
+
+#button:hover {
+    opacity: 0.7;
+}
+
+.shareQQ:hover {
+    opacity: 0.7;
+}

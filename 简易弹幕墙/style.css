@@ -1,0 +1,33 @@
+body {
+    overflow: hidden;
+}
+
+#submit {
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+button {
+    background-color: rgb(50, 200, 20);
+    color: #fff;
+    height: 40px;
+    width: 50px;
+}
+button:focus{
+    outline: none;
+}
+input {
+    border: 2px orange solid;
+    height: 36px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+span {
+    position: absolute;
+}
+
